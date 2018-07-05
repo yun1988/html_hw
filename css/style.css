@@ -135,3 +135,63 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+.clearfix {
+    clear: both;
+}
+
+
+/*!
+layout
+*/
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+    font-family: 微軟正黑體;
+}
+
+
+/*!
+topheader strat
+*/
+
+.topheader {
+    background-color: #f6f6f6;
+    padding: 5px;
+}
+
+.topheader ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.topheader ul li {
+    float: left;
+}
+
+.topheader li a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topheader_facebook {
+    border-right: 1px solid #cccccc;
+    padding-right: 8px;
+    margin-right: 8px;
+}
+
+.topheader_facebook a {
+    color: #4460a0;
+    font-weight: bold;
+}
+
+.topheader_twitter a {
+    color: #00aaec;
+    font-weight: bold;
+}
+
+
+/*!
+topheader end
+*/
