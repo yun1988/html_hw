@@ -149,6 +149,9 @@ layout
     width: 1024px;
     margin: 0 auto;
     font-family: 微軟正黑體;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
@@ -195,5 +198,55 @@ topheader strat
 
 
 /*!
-topheader end
+header end
 */
+
+
+/*!
+header start
+*/
+
+.header {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.header h1 {
+    float: left;
+    margin: 5px 10px;
+}
+
+.header h1 a {
+    display: block;
+    background: url(../image/logo.png) no-repeat;
+    width: 170px;
+    height: 36px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.header ul {
+    float: right;
+}
+
+.header ul li {
+    float: left;
+    padding: 20px 30px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #00cc99;
+    font-weight: bold;
+    line-height: 15px;
+    display: block;
+    height: 30px;
+}
+
+.header li a:hover {
+    border-bottom: 2px solid #00cc99;
+}
