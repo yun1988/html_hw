@@ -159,6 +159,8 @@ topheader strat
 .topheader {
     background-color: #f6f6f6;
     padding: 5px;
+    height: 30px;
+    line-height: 30px;
 }
 
 .topheader ul {
