@@ -203,23 +203,24 @@ header end
 
 
 /*!
-header start
+nav start
 */
 
-.header {
+.nav {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     height: 50px;
     padding-left: 20px;
+    font-size: 16px;
 }
 
-.header h1 {
+.nav h1 {
     float: left;
     margin: 5px 10px;
 }
 
-.header h1 a {
+.nav h1 a {
     display: block;
     background: url(../image/logo.png) no-repeat;
     width: 170px;
@@ -229,16 +230,16 @@ header start
     white-space: nowrap;
 }
 
-.header ul {
+.nav ul {
     float: right;
 }
 
-.header ul li {
+.nav ul li {
     float: left;
     padding: 20px 30px;
 }
 
-.header ul li a {
+.nav ul li a {
     text-decoration: none;
     color: #00cc99;
     font-weight: bold;
@@ -247,6 +248,43 @@ header start
     height: 30px;
 }
 
-.header li a:hover {
+.nav li a:hover {
     border-bottom: 2px solid #00cc99;
+}
+
+
+/*!
+nav end
+*/
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 1024px;
+    height: 418px;
+    margin-top: -20px;
+}
+
+.banner:before {
+    width: 1024px;
+    height: 140px;
+    position: absolute;
+    background: #d9d9d9;
+    opacity: 0.3;
+    top: 150px;
+    content: "";
+}
+
+.banner_text {
+    position: absolute;
+    color: #fff;
+    top: 180px;
+}
+
+.banner_text p {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
 }
